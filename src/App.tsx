@@ -10,12 +10,14 @@ const AppContent = () => {
 
   return (
     <div className="min-h-screen">
-      {!isAuthPage && <Navbar />}
-      <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-      </Routes>
+      <Navbar />
+      <div className={isAuthPage ? "pt-0" : "pt-24"}>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </div>
     </div>
   );
 };
