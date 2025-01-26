@@ -21,16 +21,16 @@ export const Navbar = () => {
         </Link>
         
         <div className="hidden md:flex items-center space-x-8">
-          <Link to="/artists" className="nav-link">Artists</Link>
-          <Link to="/influencers" className="nav-link">Influencers</Link>
-          <Link to="/media" className="nav-link">Media</Link>
-          <Link to="/brands" className="nav-link">Brands</Link>
+          <Link to="/artists" className="nav-link">Artistes</Link>
+          <Link to="/influencers" className="nav-link">Influenceurs</Link>
+          <Link to="/media" className="nav-link">Médias</Link>
+          <Link to="/brands" className="nav-link">Marques</Link>
         </div>
 
         <div className="flex items-center space-x-4">
-          <Link to="/login" className="nav-link">Login</Link>
+          <Link to="/login" className="nav-link">Connexion</Link>
           <Link to="/register" className="px-4 py-2 rounded-lg bg-primary text-white hover:bg-primary/90 transition-colors">
-            Get Started
+            Commencer
           </Link>
         </div>
       </div>

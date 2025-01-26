@@ -11,23 +11,23 @@ export const Hero = () => {
           className="max-w-3xl mx-auto"
         >
           <span className="px-3 py-1 text-sm font-medium rounded-full glass inline-block mb-6">
-            The Future of Music Distribution
+            L'Avenir de la Distribution Musicale
           </span>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            Empower Your Music Career with AI
+            Développez Votre Carrière Musicale avec l'IA
           </h1>
           
           <p className="text-lg md:text-xl text-gray-300 mb-8">
-            Connect with artists, influencers, and brands. Distribute your music globally and grow your career with AI-powered insights.
+            Connectez-vous avec des artistes, des influenceurs et des marques. Distribuez votre musique mondialement et développez votre carrière avec des insights basés sur l'IA.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button className="px-8 py-3 rounded-lg bg-primary text-white hover:bg-primary/90 transition-colors w-full sm:w-auto">
-              Start Creating
+              Commencer à Créer
             </button>
             <button className="px-8 py-3 rounded-lg glass hover:bg-white/10 transition-colors w-full sm:w-auto">
-              Learn More
+              En Savoir Plus
             </button>
           </div>
         </motion.div>
